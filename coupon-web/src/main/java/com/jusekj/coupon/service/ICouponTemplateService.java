@@ -16,4 +16,7 @@ import java.util.List;
  */
 public interface ICouponTemplateService extends IService<CouponTemplate> {
     List<CouponTemplate> listAll();
+
+
+
 }

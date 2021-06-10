@@ -31,25 +31,25 @@ public class CouponProduct implements Serializable {
      * 优惠卷模板ID
      */
     @TableField("couponTemplateId")
-    private Integer coupontemplateid;
+    private Integer couponTemplateId;
 
     /**
      * 商品ID
      */
     @TableField("productId")
-    private Integer productid;
+    private Integer productId;
 
     /**
      * 创建时间
      */
     @TableField("createdAt")
-    private LocalDateTime createdat;
+    private LocalDateTime createdAt;
 
     /**
      * 修改时间
      */
     @TableField("updatedAt")
-    private LocalDateTime updatedat;
+    private LocalDateTime updatedAt;
 
 
 }

@@ -34,25 +34,25 @@ public class CouponTemplate implements Serializable {
      * 优惠卷code
      */
     @TableField("couponCode")
-    private String couponcode;
+    private String couponCode;
 
     /**
      * 优惠卷名称
      */
     @TableField("couponName")
-    private String couponname;
+    private String couponName;
 
     /**
      * 优惠卷标题
      */
     @TableField("couponTitle")
-    private String coupontitle;
+    private String couponTitle;
 
     /**
      * 优惠卷类型  0：满减卷 1：折扣卷
      */
     @TableField("couponType")
-    private Integer coupontype;
+    private Integer couponType;
 
     /**
      * 折扣率

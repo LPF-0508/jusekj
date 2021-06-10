@@ -1,6 +1,8 @@
 package com.jusekj.coupon.controller;
 
 
+import com.jusekj.coupon.service.ICouponTemplateService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.stereotype.Controller;
@@ -15,8 +17,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2021-06-09
  */
 @RestController
-@RequestMapping("/coupon-template")
+@RequestMapping("/template")
 public class CouponTemplateController {
+    @Autowired
+    private ICouponTemplateService templateService;
+
+
 
 }
 
