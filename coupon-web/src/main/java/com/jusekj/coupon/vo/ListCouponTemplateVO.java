@@ -14,6 +14,4 @@ public class ListCouponTemplateVO {
     @ApiModelProperty(value = "模板名称/ID")
     private String templateIdOrName;
 
-    @ApiModelProperty(value = "模板名称/ID")
-    private String templateIdOrName;
 }
